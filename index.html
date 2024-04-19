@@ -1,0 +1,35 @@
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Satya's Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+  <div class="container">
+    <div class="left">
+      <h1 class="glow">Tic Tac Toe</h1><br>
+      <div class="menu">
+        <button id="start" onclick="starting();">START  GAME</button>
+        <button id="restart" onclick="reloadP();">RESTART  GAME</button>
+      </div>
+    </div>
+
+      <div class="box1">
+        <button id="a1" class="button" onclick="fun1(); checkwin();"></button>
+        <button id="a2" class="button" onclick="fun2(); checkwin();"></button>
+        <button id="a3" class="button" onclick="fun3(); checkwin();"></button>
+        <button id="a4" class="button" onclick="fun4(); checkwin();"></button>
+        <button id="a5" class="button" onclick="fun5(); checkwin();"></button>
+        <button id="a6" class="button" onclick="fun6(); checkwin();"></button>
+        <button id="a7" class="button" onclick="fun7(); checkwin();"></button>
+        <button id="a8" class="button" onclick="fun8(); checkwin();"></button>
+        <button id="a9" class="button" onclick="fun9(); checkwin();"></button>
+        <h2><p class="glow" id="ans"></p></h2>
+      </div>
+
+    </div>
+
+  <script src="main.js"></script>
+  </body>
+</html>
